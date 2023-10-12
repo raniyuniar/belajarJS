@@ -39,14 +39,14 @@
 //document.write("<br>");
 //document.write(x<10 && y < 1);
 
-let p = document.querySelector("p")
-let button = document.querySelector("button")
-let input = document.querySelector("input")
-button.addEventListener('click', function(){
-    let isi = input.value
-    console.log(isi)
-    p.innerText = isi
-})
+// let p = document.querySelector("p")
+// let button = document.querySelector("button")
+// let input = document.querySelector("input")
+// button.addEventListener('click', function(){
+//     let isi = input.value
+//     console.log(isi)
+//     p.innerText = isi
+// })
  
 
 
