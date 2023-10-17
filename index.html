@@ -13,3 +13,52 @@
    <p>Hasil Teks <span id="hasil"></span></p>
     <script src="main.js"></script>
 </body>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do List</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    
+    h1 {
+      text-align: left;
+      padding: 10px;
+    }
+    
+    #input-list {
+      margin-left: 10px;
+    }
+    
+    .daftar-list {
+      margin: 10px;
+    }
+    
+    .tombol-hapus {
+      margin-top: 10px;
+      float: right;
+      width: 20px;
+    }
+    
+    li {
+      margin-top: 5px;
+      width: 275px;
+    }
+  </style>
+</head>
+<body>
+  <h1>To-do List</h1>
+  <div class="container">
+    <input type="text" id="input-list" />
+    <button id="button" type="submit" onclick="tambah()">Submit</button>
+    <ul id="list"></ul>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+
