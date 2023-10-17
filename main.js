@@ -1,6 +1,6 @@
 //console.log ("hello world")
 //alert("ada notifikasi")
-//prompt("pinjem duls donk")
+//prompt("pinjem dulu donk")
 
 //var promnet = "coding is easy"
 //console.log (promnet)
